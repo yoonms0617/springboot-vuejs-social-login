@@ -1,11 +1,14 @@
 <template>
-  <div class="mt-4">
-    <h1 class="display-3">Home</h1>
-  </div>
+  <base-header/>
 </template>
 
 <script>
+import BaseHeader from '@/components/BaseHeader.vue'
+
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components: {
+    BaseHeader
+  }
 }
 </script>
